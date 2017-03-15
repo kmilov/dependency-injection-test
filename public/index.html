@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>express</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+  <div class="Todo">
+    <form action="" class="TodoForm">
+      <div class="TodoForm-input">
+        <input type="text" id="_js-todo-name" class="Input Input--italic" placeholder="What you have to do today?">
+      </div>
+      <div class="TodoForm-btn">
+        <input type="button" id="_js-add-todo" class="Btn" value="add todo">
+      </div>
+    </form>
+    <ul id="_js-todo-list" class="TodoList"></ul>
+  </div>
+  <script src="js/store/todo_store.js"></script>
+  <script src="js/lib/di.js"></script>
+  <script src="js/lib/store.js"></script>
+  <script src="js/lib/render.js"></script>
+  <script src="js/lib/app.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

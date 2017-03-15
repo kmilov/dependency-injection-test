@@ -1,0 +1,42 @@
+.TodoListElement {
+  color: #7d7777;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.TodoListElement-delete {
+  position: absolute;
+  right: 5px;
+  width: 10px;
+  height: 10px;
+  display: block;
+  background: coral;
+  border-radius: 100%;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.TodoListElement-update {
+  position: absolute;
+  right: 25px;
+  width: 10px;
+  height: 10px;
+  display: block;
+  background: lightgreen;
+  border-radius: 100%;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.TodoListElement--through {
+  text-decoration: line-through;
+}
+
+.TodoListElement--through .TodoListElement-update {
+  background: lightblue;
+}

@@ -1,0 +1,10 @@
+.TodoForm {}
+
+.TodoForm-input {
+  display: inline-block;
+  width: 71%;
+}
+
+.TodoForm-btn {
+  display: inline-block;
+}
